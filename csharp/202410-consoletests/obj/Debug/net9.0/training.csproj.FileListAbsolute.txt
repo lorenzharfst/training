@@ -1,0 +1,14 @@
+/home/kodex/Programming/training/obj/Debug/net9.0/training.GeneratedMSBuildEditorConfig.editorconfig
+/home/kodex/Programming/training/obj/Debug/net9.0/training.AssemblyInfoInputs.cache
+/home/kodex/Programming/training/obj/Debug/net9.0/training.AssemblyInfo.cs
+/home/kodex/Programming/training/obj/Debug/net9.0/training.csproj.CoreCompileInputs.cache
+/home/kodex/Programming/training/bin/Debug/net9.0/training
+/home/kodex/Programming/training/bin/Debug/net9.0/training.deps.json
+/home/kodex/Programming/training/bin/Debug/net9.0/training.runtimeconfig.json
+/home/kodex/Programming/training/bin/Debug/net9.0/training.dll
+/home/kodex/Programming/training/bin/Debug/net9.0/training.pdb
+/home/kodex/Programming/training/obj/Debug/net9.0/training.dll
+/home/kodex/Programming/training/obj/Debug/net9.0/refint/training.dll
+/home/kodex/Programming/training/obj/Debug/net9.0/training.pdb
+/home/kodex/Programming/training/obj/Debug/net9.0/training.genruntimeconfig.cache
+/home/kodex/Programming/training/obj/Debug/net9.0/ref/training.dll
