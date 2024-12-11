@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "whgx68RVebk=",
+  "success": true,
+  "projectFilePath": "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/testapi.csproj",
+  "expectedPackageFiles": [
+    "/home/kodex/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/home/kodex/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

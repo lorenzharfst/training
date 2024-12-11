@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kodex/Programming/training/training.csproj",
+      "projectUniqueName": "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj",
       "projectName": "training",
-      "projectPath": "/home/kodex/Programming/training/training.csproj",
+      "projectPath": "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj",
       "packagesPath": "/home/kodex/.nuget/packages/",
-      "outputPath": "/home/kodex/Programming/training/obj/",
+      "outputPath": "/home/kodex/Programming/training/csharp/202410-consoletests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kodex/.nuget/NuGet/NuGet.Config"

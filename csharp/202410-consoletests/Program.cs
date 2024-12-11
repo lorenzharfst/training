@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Words;
+using System;
 
-namespace Test
+class Training
 {
-	class Training
+	static void Main(string[] args)
 	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine(args.Length);
-		}
+		Word currentWord = new Word() { url = "https://www.dwds.de/wb/Mahnmal", name = "Mahnmal" };
+		Console.WriteLine($"Word of the day: {currentWord.name}. URL: {currentWord.url}");
 	}
 }

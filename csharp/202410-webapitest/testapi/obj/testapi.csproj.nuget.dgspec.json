@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj": {}
+    "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/testapi.csproj": {}
   },
   "projects": {
-    "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj": {
+    "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/testapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj",
-        "projectName": "training",
-        "projectPath": "/home/kodex/Programming/training/csharp/202410-consoletests/training.csproj",
+        "projectUniqueName": "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/testapi.csproj",
+        "projectName": "testapi",
+        "projectPath": "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/testapi.csproj",
         "packagesPath": "/home/kodex/.nuget/packages/",
-        "outputPath": "/home/kodex/Programming/training/csharp/202410-consoletests/obj/",
+        "outputPath": "/home/kodex/Programming/training/csharp/202410-webapitest/testapi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kodex/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +61,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
