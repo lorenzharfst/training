@@ -19,8 +19,11 @@ public class BankAccount
     public decimal Balance { get; }
     public string Owner { get; set; }
 
-    public void MakeDeposit(decimal amount, DateTime date, string note)
+    public void MakeDeposit(decimal amount, string note)
     {
+        Balance += amount;
+        DateTime date = new DateTime();
+        Console.WriteLine($"Deposit of {amount} succesful. Note: \"{note}\". Date: {date.ToString()}");
     }
 
     public void MakeWithdrawal(decimal amount, DateTime date, string note)
@@ -31,7 +34,7 @@ public class BankAccount
     {
         if (initialBalance < 0)
         {
-            throw new NegativeBalanceException();
+            throw new NegativeBalanceException("Initial balance can't be negative.");
         }
         Owner = owner;
         Balance = initialBalance;
