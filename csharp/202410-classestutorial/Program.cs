@@ -16,7 +16,7 @@ public class Program
             }
             else
             {
-                throw ex;
+                throw;
             }
         }
     }
