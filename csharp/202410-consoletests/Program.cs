@@ -9,7 +9,7 @@ public class Shape
 	}
 	public virtual void Inform()
 	{
-		Console.WriteLine("Here we inform the user of the process finishing");
+		Console.WriteLine("Here we inform the user of the process finishing.");
 	}
 }
 

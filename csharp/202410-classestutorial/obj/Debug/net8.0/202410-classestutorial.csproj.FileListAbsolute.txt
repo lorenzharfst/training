@@ -1,0 +1,15 @@
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.GeneratedMSBuildEditorConfig.editorconfig
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.AssemblyInfoInputs.cache
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.AssemblyInfo.cs
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.csproj.CoreCompileInputs.cache
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.sourcelink.json
+/home/kodex/Programming/training/csharp/202410-classestutorial/bin/Debug/net8.0/202410-classestutorial
+/home/kodex/Programming/training/csharp/202410-classestutorial/bin/Debug/net8.0/202410-classestutorial.deps.json
+/home/kodex/Programming/training/csharp/202410-classestutorial/bin/Debug/net8.0/202410-classestutorial.runtimeconfig.json
+/home/kodex/Programming/training/csharp/202410-classestutorial/bin/Debug/net8.0/202410-classestutorial.dll
+/home/kodex/Programming/training/csharp/202410-classestutorial/bin/Debug/net8.0/202410-classestutorial.pdb
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.dll
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/refint/202410-classestutorial.dll
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.pdb
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/202410-classestutorial.genruntimeconfig.cache
+/home/kodex/Programming/training/csharp/202410-classestutorial/obj/Debug/net8.0/ref/202410-classestutorial.dll
