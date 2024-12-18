@@ -14,6 +14,7 @@ namespace Classes;
 
 public class BankAccount
 {
+    private static int s_accountNumberSeed = 1234567890;
     public string Number { get; }
     public decimal Balance { get; }
     public string Owner { get; set; }
@@ -30,10 +31,11 @@ public class BankAccount
     {
         if (initialBalance < 0)
         {
-            throw new NegativeBalanceException("Balance can't be negative");
+            throw new NegativeBalanceException();
         }
         Owner = owner;
         Balance = initialBalance;
-        Number = "202020202";
+        Number = s_accountNumberSeed.ToString();
+        s_accountNumberSeed++;
     }
 }

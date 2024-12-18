@@ -5,18 +5,27 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        try {
-        BankAccount myBankAccount = new BankAccount("Lorentius", -200);
-        Console.WriteLine($"Succesfully created Bank Account for: {myBankAccount.Owner}, with balance: {myBankAccount.Balance}");
-        } catch (Exception ex)
+        var newUsers = new(string owner, decimal initialBalance) []
         {
-            if (ex is NegativeBalanceException)
+            ("Lorenz", -200),
+            ("Peter", 900),
+            ("Johan", 240)
+        };
+        foreach (var person in newUsers)
+        {
+            try {
+            BankAccount myBankAccount = new BankAccount(person.owner, person.initialBalance);
+            Console.WriteLine($"Succesfully created Bank Account for: {myBankAccount.Owner}, with balance: {myBankAccount.Balance}.");
+            } catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
-            }
-            else
-            {
-                throw;
+                if (ex is NegativeBalanceException)
+                {
+                    Console.WriteLine($"Error creating BankAccount for {person.owner}: {ex.Message}");
+                }
+                else
+                {
+                    throw;
+                }
             }
         }
     }
