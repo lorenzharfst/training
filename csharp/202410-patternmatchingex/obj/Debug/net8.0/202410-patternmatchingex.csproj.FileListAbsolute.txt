@@ -1,0 +1,15 @@
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.GeneratedMSBuildEditorConfig.editorconfig
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.AssemblyInfoInputs.cache
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.AssemblyInfo.cs
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.csproj.CoreCompileInputs.cache
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.sourcelink.json
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/bin/Debug/net8.0/202410-patternmatchingex
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/bin/Debug/net8.0/202410-patternmatchingex.deps.json
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/bin/Debug/net8.0/202410-patternmatchingex.runtimeconfig.json
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/bin/Debug/net8.0/202410-patternmatchingex.dll
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/bin/Debug/net8.0/202410-patternmatchingex.pdb
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.dll
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/refint/202410-patternmatchingex.dll
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.pdb
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/202410-patternmatchingex.genruntimeconfig.cache
+/home/kodex/Programming/training/csharp/202410-patternmatchingex/obj/Debug/net8.0/ref/202410-patternmatchingex.dll
