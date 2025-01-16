@@ -66,6 +66,16 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.4.2</version>
+          <configuration>
+                <archive>
+                        <manifest>
+                                <addClasspath>true</addClasspath>
+                                <!-- here we specify that we want to use the main method within the App class -->
+                                <mainClass>com.mycompany.app.App</mainClass>
+                        </manifest>
+                </archive>
+          </configuration>
+
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
@@ -85,21 +95,6 @@
           <version>3.6.1</version>
         </plugin>
         <!-- Some plugin to help packaging the .jar and assign it the main class -->
-        <plugin>
-        <!-- Build an executable JAR -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-                <archive>
-                        <manifest>
-                                <addClasspath>true</addClasspath>
-                                <!-- here we specify that we want to use the main method within the App class -->
-                                <mainClass>com.mycompany.App</mainClass>
-                        </manifest>
-                </archive>
-        </configuration>
-	</plugin>
       </plugins>
     </pluginManagement>
   </build>
