@@ -9,7 +9,7 @@ public class WebSecurityConfig {
             .anyRequest()
                 .authenticated()
             .and()
-                httpBasic();
+                .httpBasic();
         return http.build();
     }
 }
