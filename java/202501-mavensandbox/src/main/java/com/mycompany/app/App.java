@@ -1,5 +1,8 @@
 package com.mycompany.app;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import com.mycompany.app.Iterables;
 
 public class App {
     public static void main(String[] args) {
@@ -29,6 +32,17 @@ public class App {
             }
         }
         scanner.close();
+
+        String[] names = { "Pop", "Rob", "Coc", "Top" };
+        List<String> nameList = new ArrayList<>();
+
+        for (String name: names) {
+            nameList.add(name);
+        }
+
+        Iterables<String> stringIterables = new Iterables<>(nameList);
+        stringIterables.run();
+
     }
 }
 
